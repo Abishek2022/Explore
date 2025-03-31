@@ -1,9 +1,45 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+
 .main-font{
    font-family: "JetBrains Mono", monospace;
    font-size: 14px;
 
+}
+.p-font{
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: lighter;
+
+
+}
+.hole{
+  @apply border rounded-full h-3 w-3;
+}
+.square-box{
+  @apply border  h-2 w-2 bg-black;
+
+}
+.card-tittle{
+  font-family: "IBM Plex Serif", serif;
+  font-size: 75px;
+  padding: 9px;
+
+}
+.card-back-sub{
+  font-family: "Sassy Frass", cursive; 
+  font-size: 30px;
+
+}
+.card-sub{
+  font-family: "Sassy Frass", cursive; 
+  font-size: 55px;
+}
+.backcard-font-color{
+  @apply text-gray-400;
 }
 .test{
     @apply bg-green-400;
@@ -16,7 +52,7 @@
     transition: transform 0.6s ease-in-out; /* Smooth flip effect */
   }
   .group:hover .flip-box {
-    transform: rotateY(180deg); /* Flips only when hovered */
+    transform: rotateX(180deg); /* Flips only when hovered */
   }
   .flip-box .front, .flip-box .back {
     backface-visibility: hidden;
@@ -34,4 +70,40 @@
 
   .b{
     @apply border;
+  }
+  .border-left{
+    @apply border-dotted border-l border-[3px] border-black;
+  }
+  .border-right{
+    @apply border-dotted border-r border-black;
+  }
+  .border-top{
+    @apply border-dotted border-t border-black;
+  }
+  .border-b{
+    @apply border-dotted border-b border-black;
+  }
+
+
+  .back-border-left{
+    @apply border-dotted border-l  border-gray-500;
+  }
+  .back-border-right{
+    @apply border-dotted border-r border-gray-500;
+  }
+  .back-border-top{
+    @apply border-dotted border-t border-gray-500;
+  }
+  .back-border-b{
+    @apply border-dotted border-b border-gray-500;
+  }
+
+
+  .featured-box-shape{
+    clip-path: polygon(0% 0%,25% 0%, 80% 60%,  0% 100%,  20% 5%, 100% 4%, 100% 100%, 0% 100%);
+
+  }
+  .featured-title-font{
+    font-family: "IBM Plex Serif", serif; 
+    font-size: 52px;
   }
