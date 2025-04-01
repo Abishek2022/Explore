@@ -55,7 +55,7 @@
   transform: rotateX(180deg); /* Flips only when hovered */
   }
   .flip-box .front, .flip-box .back {
-    backface-visibility: visible;
+    backface-visibility: hidden;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -75,7 +75,7 @@
     @apply border-dotted border-l border-[3px] border-black;
   }
   .border-right{
-    @apply border-dotted border-r border-black opa;
+    @apply border-dotted border-r border-black ;
   }
   .border-top{
     @apply border-dotted border-t border-black;
@@ -108,10 +108,10 @@
 
   }
   .box-clip-second{
-    clip-path: polygon(32% 6%, 70% 6%, 64% 9.5%, 100% 9.5%, 100% 100%, 50% 100%, 0 99%, 0 44%, 0 10%, 32% 10%);
+    clip-path: polygon(32% 6%, 60% 6%, 64% 9.5%, 100% 9.5%, 100% 100%, 50% 100%, 0 99%, 0 44%, 0 10%, 32% 10%);
   }
   .box-clip-thired{
-    clip-path: polygon(30% 6%, 89% 6%, 96% 9.5%, 100% 9.5%, 100% 100%, 50% 100%, 0 99%, 0 44%, 0 10%, 62% 15%);
+    clip-path: polygon(62% 6%, 88% 6%, 92% 9.5%, 100% 9.5%, 100% 100%, 50% 100%, 0 99%, 0 54%, 0 10%, 62% 9.5%);
   }
   .featured-title-font{
     font-family: "IBM Plex Serif", serif; 

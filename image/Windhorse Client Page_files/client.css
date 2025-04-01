@@ -1,0 +1,1883 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    --primary--color: #791e30;
+    --secondary--color: #eebc1d;
+    --third--color: #712822;
+    --heading: "Open Sans", sans-serif;
+    --cursive: "Manus";
+    --heading-new: "Bebas Neue", cursive;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.15;
+}
+a:hover,
+.uk-link:hover,
+a,
+.uk-link {
+    text-decoration: none;
+}
+
+body {
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: "Mulish", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+#site__header {
+    background: #fff;
+    box-shadow: 0 2px 16px 2px rgba(0, 0, 0, 0.2);
+}
+.site-menu {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+}
+.logo {
+    display: inline-block;
+    padding: 16px 0 20px 0;
+}
+.site-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-self: stretch;
+    height: 100%;
+    align-items: center;
+}
+.site-menu ul > li {
+    display: inline-block;
+}
+.site-menu ul > li > a {
+    color: #333333bf;
+    display: block;
+    opacity: 1;
+    padding-left: 2.3rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    transition: 0s;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    align-items: center;
+    text-transform: uppercase;
+}
+.site-menu ul > li:hover > a {
+    color: #d32d34;
+}
+/* header */
+
+/* footer */
+.site__footer {
+    background: #9d4516;
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.affiliations a {
+    display: inline-block;
+    margin: 5px 14px 10px 0;
+}
+
+.links ul {
+    margin: 0;
+    display: inline-block;
+    padding: 0 30px 0 0;
+    list-style: none;
+}
+
+.links h6,
+.social h6 {
+    margin: 0 0 8px 0;
+    color: #fff;
+    font-size: 23px;
+}
+
+.links ul li a {
+    color: #fff;
+    padding: 4px 0;
+    display: block;
+    font-size: 15px;
+}
+.links ul li a:hover {
+    opacity: 0.9;
+}
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #000;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+.social ul li a:hover {
+    color: #fff;
+    background: #0000005e;
+}
+
+.footer__contact {
+    padding: 30px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ffffff29;
+}
+.footer__contact p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 3px 0 0 0;
+}
+.footer__contact p span {
+    position: relative;
+    display: inline-block;
+    padding: 2px 0 1px 0;
+}
+.footer__contact p span::before {
+    display: inline-block;
+    background: #fff;
+    height: 5px;
+    margin: 0 6px;
+    width: 5px;
+    content: "";
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.social p {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.trip__name {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #d12028;
+}
+.trip-box .image__cover {
+    flex: 2;
+}
+
+.trip-description {
+    flex: 2;
+    padding-left: 2.5rem;
+}
+.trip-description p {
+    line-height: 1.9;
+    font-size: 17px;
+    color: #333;
+}
+
+.uk-button-success {
+    background: #32d296;
+    color: #fff;
+    font-weight: bold;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover {
+    color: #fff;
+}
+p {
+    line-height: 1.7;
+}
+
+.uk-responsive-menu {
+    color: #333;
+}
+
+.responsive__menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.responsive__menu ul li > a {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px;
+    display: block;
+}
+.uk-offcanvas-bar .uk-offcanvas-close {
+    background: #fff;
+    padding: 12px;
+    color: #333;
+}
+.uk-offcanvas-bar {
+    padding: 0;
+}
+.responsive__menu ul li > a:hover {
+    background: #404040;
+    color: #fff;
+    outline: none;
+}
+
+.header-head {
+    font-size: 3.5rem;
+    color: var(--primary--color);
+    font-family: var(--heading-new);
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+.form--menu {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #21252999;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+    background-color: #ddd;
+    padding: 12px 40px 12px 16px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form--menu:hover {
+    background: #9d4516;
+    color: #fff;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form--menu:hover:after {
+    border-left: 10px solid #9d4516;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form--menu::after,
+.form--menu::before {
+    content: " ";
+    display: block;
+    border-left: 10px solid #ddd;
+    width: 0;
+    height: 0;
+    border-top: 23.5px solid transparent;
+    border-bottom: 23.5px solid transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -23.5px;
+    left: 100%;
+    z-index: 3;
+}
+.number-circle {
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    padding: 2px;
+    font-size: 14px;
+    background: #fff;
+    color: #666;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.step {
+    margin-top: 30px;
+}
+.form__wrap label {
+    display: block;
+    font-weight: bold;
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.form__wrap .uk-inline {
+    display: block;
+}
+.steps {
+    margin-top: 16px;
+}
+.steps ul li {
+    display: inline-block !important;
+    float: none !important;
+    width: auto !important;
+}
+
+.steps ul li .number {
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    padding: 2px;
+    font-size: 14px !important;
+    background: #fff;
+    color: #666;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/*
+    Common
+*/
+
+.wizard,
+.tabcontrol {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wizard a,
+.tabcontrol a {
+    outline: 0;
+}
+
+.wizard ul,
+.tabcontrol ul {
+    list-style: none !important;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.a1 ul,
+.a1 ol {
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.wizard ul > li,
+.tabcontrol ul > li {
+    display: block;
+    padding: 0;
+}
+
+/* Accessibility */
+.wizard > .steps .current-info,
+.tabcontrol > .steps .current-info {
+    position: absolute;
+    left: -999em;
+}
+
+.wizard > .content > .title,
+.tabcontrol > .content > .title {
+    position: absolute;
+    left: -999em;
+}
+
+/*
+    Wizard
+*/
+
+.wizard > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.wizard.vertical > .steps {
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+.wizard > .steps .number {
+    font-size: 1.429em;
+}
+
+.wizard > .steps > ul > li {
+    width: 25%;
+}
+
+.wizard > .steps > ul > li,
+.wizard > .actions > ul > li {
+    float: left;
+}
+
+.wizard.vertical > .steps > ul > li {
+    float: none;
+    width: 100%;
+}
+
+.wizard > .steps a,
+.wizard > .steps a:hover,
+.wizard > .steps a:active {
+    display: block;
+    width: auto;
+    /* margin: 0 0.5em 0.5em; */
+    padding: 1em 1em;
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0 20px 0;
+}
+
+.wizard > .content {
+    background: #eeeeee6e;
+    display: block;
+    margin: 0.5em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wizard.vertical > .content {
+    display: inline;
+    float: left;
+    margin: 0 2.5% 0.5em 2.5%;
+    width: 65%;
+}
+
+.wizard > .content > .body {
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%;
+}
+
+.wizard > .content > .body ul {
+    list-style: disc !important;
+}
+
+.wizard > .content > .body ul > li {
+    display: list-item;
+}
+
+.wizard > .content > .body > iframe {
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+}
+
+.wizard > .content > .body input {
+    border: 1px solid #ccc;
+}
+
+.wizard > .content > .body input[type="checkbox"] {
+    display: inline-block;
+}
+
+.wizard > .content > .body input.error {
+    background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+}
+
+.wizard > .content > .body label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+.wizard > .content > .body label.error {
+    color: #8a1f11;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.wizard > .actions {
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+
+.wizard.vertical > .actions {
+    display: inline;
+    float: right;
+    margin: 0 2.5%;
+    width: 95%;
+}
+
+.wizard > .actions > ul {
+    display: inline-block;
+    text-align: right;
+}
+
+.wizard > .actions > ul > li {
+    margin: 0 0.5em;
+}
+
+.wizard.vertical > .actions > ul > li {
+    margin: 0 0 0 1em;
+}
+
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active {
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wizard > .actions .disabled a,
+.wizard > .actions .disabled a:hover,
+.wizard > .actions .disabled a:active {
+    background: #eee;
+    color: #aaa;
+}
+
+.wizard > .loading {
+}
+
+.wizard > .loading .spinner {
+}
+
+/*
+    Tabcontrol
+*/
+
+.tabcontrol > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.tabcontrol > .steps > ul {
+    position: relative;
+    margin: 6px 0 0 0;
+    top: 1px;
+    z-index: 1;
+}
+
+.tabcontrol > .steps > ul > li {
+    float: left;
+    margin: 5px 2px 0 0;
+    padding: 1px;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tabcontrol > .steps > ul > li:hover {
+    background: #edecec;
+    border: 1px solid #bbb;
+    padding: 0;
+}
+
+.tabcontrol > .steps > ul > li.current {
+    background: #fff;
+    border: 1px solid #bbb;
+    border-bottom: 0 none;
+    padding: 0 0 1px 0;
+    margin-top: 0;
+}
+
+.tabcontrol > .steps > ul > li > a {
+    color: #5f5f5f;
+    display: inline-block;
+    border: 0 none;
+    margin: 0;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.tabcontrol > .steps > ul > li > a:hover {
+    text-decoration: none;
+}
+
+.tabcontrol > .steps > ul > li.current > a {
+    padding: 15px 30px 10px 30px;
+}
+
+.tabcontrol > .content {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    border-top: 1px solid #bbb;
+    padding-top: 20px;
+}
+
+.tabcontrol > .content > .body {
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%;
+}
+
+.tabcontrol > .content > .body ul {
+    list-style: disc !important;
+}
+
+.tabcontrol > .content > .body ul > li {
+    display: list-item;
+}
+
+.first.current #form-3-t-0 {
+    background-position: 0 -60px;
+}
+#form-3 fieldset {
+    margin: 0;
+    padding: 30px;
+    border: none;
+    position: static !important;
+}
+form fieldset {
+    border: none;
+    padding: 30px;
+    background: #f1f1f1;
+}
+
+.uk-heading-small {
+    margin-top: 0;
+    font-family: var(--heading-new);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--primary--color);
+}
+
+.uk-inline label {
+    display: inline-block;
+}
+.wbm-review-label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+}
+
+.wbm-each-review-row {
+    line-height: 1.6;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    line-height: 1.9;
+}
+
+.data-holder {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 0;
+}
+.data-holder > div {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-btn {
+    font-size: 14px;
+    font-weight: bold;
+    /* width: 120px; */
+    text-align: center;
+}
+.data-holder div:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .booking__form.uk-padding-large {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wizard > .content > .body {
+        width: auto !important;
+        height: 95%;
+        padding: 2.5%;
+    }
+    .trip__description.uk-padding-large {
+        padding: 30px 0px;
+    }
+    .trip__name {
+        font-size: 3rem;
+    }
+    .trip-box .image__cover {
+        flex: auto;
+    }
+    .trip-description {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .trip-description p {
+        line-height: 1.8;
+        font-size: 15px;
+        color: #333;
+    }
+    .links {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ffffff29;
+        border-top: 1px solid #ffffff29;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+}
+
+.form__wrap .uk-form-icon {
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.help-block.error-help-block {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    color: red;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form__wrap span {
+    margin-bottom: 10px;
+    display: block;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.text-danger.recaptcha-error {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+    padding: 5px;
+    background: #ff000014;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success-title,
+.error-title {
+    color: green;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.error-title {
+    color: red;
+}
+
+.success-msg img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.success-msg p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.social ul li a svg {
+    height: 35px;
+}
+
+/* Header CSS */
+
+.site-header {
+    background-color: #fff;
+    color: #191919;
+    position: relative;
+    z-index: 19;
+}
+
+.site-header .container {
+    max-width: 1388px;
+}
+
+.site-header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background: var(--third--color)
+        url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/nav-pattern.png");
+    z-index: 111;
+}
+
+.mainnavigation::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/header-banner.svg")
+        0 0 no-repeat;
+    z-index: 111;
+}
+
+.estd img {
+    width: 105px;
+    width: 85px;
+}
+
+/* .site-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/header-top-pattern.png") repeat-x;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+} */
+
+.site-header::after,
+.mainnavigation::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/header-pattern-1.png");
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.35; */
+}
+
+.site-header > div {
+    position: relative;
+    z-index: 2;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-mid {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.navigation > div > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100%;
+}
+.navigation > div > ul > li {
+    /* border-left: 2px solid #d9d9d9a3; */
+    display: flex;
+    align-self: stretch;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+.navigation > div > ul > li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+.navigation > div > ul > li:first-child a {
+    margin-left: 0;
+}
+nav {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+}
+nav > div {
+    display: flex;
+    align-items: center;
+}
+.tel-numbericon-phone .tel-number {
+    color: var(--primary--color);
+    font-size: 20px;
+    font-family: var(--heading);
+    font-weight: 600;
+}
+.tel-numbericon-phone {
+    padding-left: 25px;
+}
+.tel-numbericon-phone i {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 25px;
+    vertical-align: text-bottom;
+}
+
+.tel-numbericon-phone .dropdown-menu {
+    padding: 0;
+}
+
+.tel-numbericon-phone .dropdown-menu li {
+    border-bottom: 1px solid #eee;
+}
+
+.tel-numbericon-phone .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.tel-numbericon-phone .dropdown-menu li .dropdown-item {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.openinghours-open {
+    line-height: 1;
+    background: none;
+    color: #691934;
+    font-size: 13px;
+    display: block;
+    padding-top: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.openinghours-open:hover {
+    color: var(--primary--color);
+}
+
+.header-search input {
+    background: none;
+    border: none;
+    font-weight: 500;
+    color: #111;
+    width: 200px;
+    color: #111111ab;
+    padding-right: 0px;
+    padding-left: 25px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    transition: width 0.3s linear;
+    -webkit-transition: width 0.3s linear;
+    -moz-transition: width 0.3s linear;
+    -ms-transition: width 0.3s linear;
+    -o-transition: width 0.3s linear;
+    outline: none;
+    font-size: 16px;
+}
+
+.mainnavigation {
+    /* background: var(--third--color) url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/nav-pattern.png"); */
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    padding-top: 59px;
+    /* border-top: 2px solid #a39161; */
+}
+
+.mainnavigation > div {
+    position: relative;
+    z-index: 99999;
+}
+
+.header-search form {
+    position: relative;
+    -webkit-border-radius: 0.7rem;
+    border-radius: 8px;
+    background: #00000012;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #00000024;
+    width: 250px;
+}
+
+.header-search button {
+    position: absolute;
+    color: #fff;
+    border: none;
+    background: none;
+    display: inline-block;
+    height: 100%;
+    outline-style: none;
+    right: 0;
+    cursor: pointer;
+    padding: 0 13px;
+}
+.openinghours-open div::after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 3px 0 4px;
+    border-color: #0f0f0f transparent transparent transparent;
+    content: "";
+    position: absolute;
+    margin: 5px 0 0 7px;
+}
+.navigation > div > ul > li:hover > a {
+    color: var(--primary--color);
+}
+
+.header-left {
+    padding: 25px 0;
+}
+.estd {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.custom-logo-link {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.navigation > div > ul > li > a {
+    color: #111;
+    font-size: 21px;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0;
+    position: relative;
+    line-height: 1;
+    font-family: "Bebas Neue", cursive;
+    transition: 0.3s linear;
+    padding: 17px 20px;
+}
+
+.mainnavigation.fixed {
+    transition: 0.3s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    /* padding: 17px 0 17px 0; */
+    background: #ecece8;
+}
+
+.mainnavigation.fixed .navigation > div > ul > li > a {
+    /* font-size: 16px; */
+    transition: 0.3s linear;
+}
+
+.site-header .header-mobile {
+    display: none;
+}
+.travel-destination-section .section-heading-wrap .title,
+.travel-destination-section .section-heading-wrap strong {
+    display: block;
+    color: #fff;
+}
+.mobile-sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    z-index: 10000;
+}
+
+.mobile-sidebar > div > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-sidebar > div > ul > li {
+    border-bottom: 1px solid #444;
+    opacity: 0;
+}
+
+.mobile-sidebar > div > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.bg-overlay {
+    position: fixed;
+    background: #000000db;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+    cursor: pointer;
+    z-index: 10000;
+    top: 0;
+}
+
+.mobileMenu-show .bg-overlay {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+.mobile-sidebar > div > ul > li > ul {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+.mobile-sidebar > div > ul > li {
+    position: relative;
+}
+
+.mobile-sidebar > div > ul > li > i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 49px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    background: #11111136;
+    cursor: pointer;
+}
+
+.mobile-sidebar > div > ul > li > ul > li {
+    color: #0000006b;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.mobile-sidebar > div > ul > li > ul > li > a {
+    color: #000000bd;
+}
+
+.mobile-sidebar > div > ul > li > ul > li:hover a {
+    color: var(--primary--color);
+}
+
+.navigation > div > ul > li > ul {
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s linear;
+    padding: 10px 12px;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    width: 280px;
+    box-shadow: -1px 5px 12px #0003;
+    border-radius: 0 0 4px 4px;
+    z-index: 1112;
+}
+.navigation > div > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+.navigation > div > ul > li > ul > li > a {
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    /* text-transform: uppercase; */
+    display: block;
+    padding: 6px 10px;
+}
+.navigation > div > ul > li > ul > li:hover > a {
+    color: var(--primary--color);
+}
+/* Header CSS */
+
+/* Footer CSS */
+.site-footer {
+    background: #000;
+    padding: 40px 0 0 0;
+    color: #fff;
+    position: relative;
+}
+.site-footer .container {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-bg::after {
+    content: "";
+    background: url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/footer-wh-1.svg")
+        0 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 21px;
+}
+.site-footer::before {
+    content: "";
+    background: url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/footer-pattern-4.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+/* .site-footer::before {
+  background: url(https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/footer-pattern-1.png);
+} */
+
+/* .site-footer::after {
+  content: "";
+  background: linear-gradient(to top, #000000c4, rgba(0, 0, 0, 0.45), transparent, transparent, transparent);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.site-footer::after {
+    content: "";
+    background: url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/prayer-flag.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+}
+.footer-first {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    background: #ffffff1c;
+    display: inline-block;
+    margin-left: 6px;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.social-media a:hover {
+    background: #fff;
+    color: var(--primary--color);
+}
+.estd-logo {
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.associated-col-wrap .associated div {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+.footer-head {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.95;
+}
+.footer-second {
+    padding: 25px 0 25px 0;
+    border-bottom: 1px solid #ffffff24;
+}
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-col ul li {
+    padding: 4px 0;
+}
+.footer-col ul li a {
+    color: #ffffffb8;
+    color: #fff;
+    font-size: 14.3px;
+    font-weight: 500;
+}
+.footer-col ul li a:hover {
+    opacity: 1;
+    color: #fff;
+}
+.section-review .container {
+    position: relative;
+}
+.associated-col-wrap {
+    flex: 1;
+    max-width: 400px;
+    padding-right: 15px;
+}
+.footer-link-wrap {
+    flex: 1;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-link-wrap > div {
+    flex: 33.333%;
+    padding-right: 30px;
+}
+.footer-third {
+    margin-top: 30px;
+}
+.footer-third .social-media {
+    margin-top: 20px;
+}
+.footer-third .col-md-5 {
+    margin-top: auto;
+}
+.footer-contact-left ul {
+    margin: 0;
+    padding: 0 0 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.group a {
+    display: inline-block;
+    max-width: 125px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.group a img {
+    border-radius: 5px;
+    height: 57px;
+    object-fit: cover;
+}
+.footer-contact-left ul li {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.footer-contact-left ul li a {
+    padding-right: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14.8px;
+    padding-bottom: 0;
+}
+
+.footer-contact-left ul li a:hover {
+    opacity: 0.75;
+}
+
+.footer-contact-right {
+    margin-top: 20px;
+    grid-gap: 13px;
+}
+.footer-contact-right div strong {
+    display: block;
+    font-size: 17px;
+    padding-top: 5px;
+}
+.footer-contact-right div {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 30px;
+}
+.footer-third .col-md-6 {
+    margin: auto 0 0 0;
+}
+
+.playVideo {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0) invert(1);
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.video__section .modal {
+    z-index: 9999999;
+}
+
+.footer-contact-right div a {
+    color: #fff;
+}
+
+.footer-grey-bottom {
+    padding: 0px 0 30px 0;
+    font-size: 13px;
+    color: #ccc;
+    text-align: right;
+    font-weight: 500;
+}
+.social-media {
+    margin-bottom: 11px;
+}
+.associated-col-wrap .associated {
+    margin-top: 20px;
+}
+
+.form__box input[type="text"], .form__box input[type="date"], .form__box select, .form__box textarea {
+	display: block;
+	width: 100%;
+	height: 46px;
+	padding: 10px 18px;
+	font-size: 16px;
+	line-height: 13px;
+	color: #556464;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #cbcece;
+	border-radius: 0;
+	-webkit-transition: border-color ease-in-out, box-shadow ease-in-out;
+	-webkit-transition-delay: 0.15s, 0.15s;
+	-webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+#my-form .steps {
+    max-width: 66.66%;
+    margin: auto;
+}
+#my-form .steps .step {
+    display: inline-block;
+    position: relative;
+}
+#my-form .steps .step:after {
+    background-color: var(--primary--color);
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    top: 24px;
+    width: 100%;
+}
+#my-form .steps .step:last-child:after {
+    content: none;
+}
+#my-form .steps .step .number {
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+    border: 2px solid var(--primary--color);
+    border-radius: 25px;
+    color: var(--primary--color);
+    display: inline-block;
+    font-weight: 600;
+    height: 50px;
+    margin: 0 8%;
+    padding: 11px;
+    text-align: center;
+    width: 50px;
+}
+#my-form .steps .step.active .number {
+    background-color: var(--primary--color);
+    color: #fff;
+}
+#my-form .steps .step .step-name {
+    color: #444;
+    margin-top: 10px;
+}
+#my-form .steps .step.active .step-name {
+    color: var(--primary--color);
+    font-weight: 600;
+}
+
+#my-form {
+    padding-top: 18px;
+}
+
+#my-form .steps {
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#my-form .steps {
+    text-align: center;
+}
+
+.wh-btn {
+    /* font-family: var(--heading-new); */
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 8px 15px;
+    text-decoration: none !important;
+    overflow: hidden;
+    transition: all 0.3s;
+    color: var(--primary--color);
+    font-weight: 400;
+    overflow: hidden;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+    -ms-transition: linear 0.3s;
+    -o-transition: linear 0.3s;
+    text-transform: uppercase;
+    /* font-weight: 700; */
+    border: none;
+}
+
+.wh-btn:hover {
+    background: var(--secondary--color);
+}
+
+.wh-btn::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #ffd700
+        url("https://www.windhorsetours.com/wp-content/themes/windhorsetwentythree/assets/img/btn-pattern.png");
+    background-size: 100%;
+    z-index: 1111;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+    -ms-transition: linear 0.3s;
+    -o-transition: linear 0.3s;
+}
+
+.wh-btn:hover::after {
+    width: 120%;
+    left: -8px;
+}
+
+.wh-btn::after {
+    height: 100%;
+    left: -10%;
+    z-index: 1;
+    transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+}
+
+.wh-btn span {
+    color: #fff;
+}
+
+.wh-btn:hover span {
+    color: #111;
+    position: relative;
+    z-index: 1111;
+}
+
+.btn--red {
+    color: #fff;
+    background: var(--primary--color);
+    border-color: var(--primary--color);
+}
+
+.btn--pay--now {
+    color: #fff;
+    background: var(--primary--color);
+    border-color: var(--primary--color);
+}
+
+.btn--pay--later {
+    color: #fff;
+    background: var(--secondary--color);
+    border-color: var(--secondary--color);
+}
+
+
+.btn-white {
+    background: #fff;
+    color: var(--primary--color);
+}
+
+.btn-white span {
+    color: var(--primary--color);
+}
+
+.btn--pay--later:hover {
+    background: var(--primary--color);
+}
+
+.btn--red-outline span {
+    color: #111;
+}
+
+.btn--red-outline:hover span {
+    color: #fff;
+}
+
+.btn-small {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+}
+
+.date__holder > div:not(:last-child)::after {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #111;
+    position: absolute;
+    right: -69px;
+    top: 6px;
+    font-size: 20px;
+}
+
+.date__holder > div {
+    position: relative;
+}
+
+.date__holder > div input {
+    font-size: 14px;
+}
+
+.date__holder > div span {
+    margin-top: 5px;
+    display: block;
+}
+
+.price__holder > div:not(:last-child)::after {
+    display: none;
+}
+
+.price__holder > div strong {
+    display: block;
+}
+
+.each__traveller h3 {
+    padding: 12px 15px;
+    font-size: 22px;
+    background: #eee;
+    color: var(--primary--color);
+    cursor: pointer;
+    position: relative;
+    margin-top: 0;
+}
+
+.each__traveller h3::after {
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    height: 100%;
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.each__traveller .field_set {
+    display: none;
+    margin-bottom: 25px;
+}
+
+.each__traveller.mobile-accordion-show h3::after {
+    content: "\f106";
+}
+
+.data-holder a {
+    color: var(--primary--color);
+}
+
+.toc h1 {
+    font-size: 22px;
+}
+
+.toc h2 {
+    font-size: 20px;
+}
+
+.toc p {
+    font-size: 15px;
+}
+
+.agree--toc {
+    border: 1px solid #3333334d;
+    margin-top: 30px;
+    padding: 18px 30px 18px 60px;
+    background-color: #eee;
+    position: relative;
+}
+
+.agree--toc input {
+    position: absolute;
+    left: 27px;
+    top: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+.travellers__info {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+}
+
+hr.uk-hr {
+    border-top: 1px solid #9b9b9b;
+}
+
+.uk-offcanvas-overlay {
+    z-index: 999999;
+}
+
+.uk-offcanvas-bar > div > ul > li {
+    border-bottom: 1px solid #444;
+}
+
+.uk-offcanvas-bar > div > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.uk-offcanvas-bar > div > ul > li > ul {
+    display: none;
+}
+
+.associated-col-wrap .cdsROW {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.tripAdvisor__code {
+    background: #fff;
+}
+
+.tel-numbericon-phone .dropdown-menu li {
+    border-bottom: 1px solid #eee;
+}
+
+.tel-numbericon-phone .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.tel-numbericon-phone .dropdown-menu li .dropdown-item {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0 30px;
+}
+
+
+#card-form input#credit-card-number {
+        display: block;
+    width: 100%;
+    height: 46px;
+    padding: 10px 18px;
+    font-size: 16px;
+    line-height: 13px;
+    color: #556464;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cbcece;
+    border-radius: 0;
+    -webkit-transition: border-color ease-in-out, box-shadow ease-in-out;
+    -webkit-transition-delay: 0.15s, 0.15s;
+    -webkit-transition: border-color 0.15s ease-in-out,
+        -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out,
+        -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+        -webkit-box-shadow 0.15s ease-in-out;
+}
+
+#zoid-paypal-buttons-uid_779830e757_mte6mzi6mzi > iframe.component-frame {
+    z-index: 1;
+}
+
+
+.default-container  {
+    padding: 20px;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.notice {
+    padding: 5px 15px;
+    background: var(--primary--color);
+    color:   #fff;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.btn--pay--now {
+    display: inline-block;
+    margin-top: 5px;
+}
