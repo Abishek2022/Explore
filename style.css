@@ -117,3 +117,70 @@
     font-family: "IBM Plex Serif", serif; 
     font-size: 52px;
   }
+.Archive-box{
+  display: grid ;
+  grid-template-columns: repeat(6, 12fr);
+  margin-left: 20px;
+
+  
+}
+.archive-item{
+  border: 1px dotted;
+  width:300px;
+  height: 300px;
+
+}
+.achive{
+margin-top: 100px;
+}
+.image-archive{
+  object-fit: cover;
+  height: 100%;
+}
+.main-container{
+  max-width: 1600px;
+  width: 100%;
+  padding: 15px 15px;
+  margin: auto;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-coantainer{
+  max-width: 1400px;
+  width: 100%;
+  padding: 22px 22px;
+  margin: auto;
+}
+.archive-coantainer{
+  max-width: 1200px;
+  width: 100%;
+  padding: 22px 22px;
+  margin: auto;
+}
+.footer{
+  background-color: rgb(29, 29, 29);
+
+}
+.footer-title a{
+  display: inline-flex;
+      gap: 40px;
+      align-items: center;
+      align-content: center;
+      text-decoration: none;
+}
+     
+.footer-title a p{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+}
+.footer-title a h1{
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+
+  color: white; 
+}
